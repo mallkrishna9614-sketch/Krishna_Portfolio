@@ -30,7 +30,7 @@ export default function SummaiyaPortfolio() {
           <div className="sf-hero-meta"><span>BASED IN PATNA, INDIA</span><span className="sf-meta-line" /><span>LEARNING EVERY DAY</span></div>
         </div>
         <div className="sf-hero-visual">
-          <div className="sf-photo-frame"><img src="/images/summaiya-fatma.jpg" alt="Summaiya Fatma wearing her LPU B.Pharm coat" /></div>
+          <div className="sf-photo-frame"><img src="/images/summaiya-fatma.jpg" alt="Summaiya Fatma wearing her LPU B.Pharm coat" onError={(event) => { event.currentTarget.style.display = "none"; }} /></div>
           <div className="sf-photo-label"><span className="sf-label-star">✳</span><span>Future pharmacist<br /><strong>in the making</strong></span></div>
           <div className="sf-orbit sf-orbit-one" /><div className="sf-orbit sf-orbit-two" />
           <div className="sf-side-note">SCIENCE · EMPATHY · DISCOVERY</div>
